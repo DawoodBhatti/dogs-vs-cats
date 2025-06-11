@@ -1,3 +1,9 @@
+# Data folders and virtual env
+dataset_dogs_vs_cats/
+dogs-vs-cats/
+train/
+virtual_env/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -135,6 +141,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+virtual_env/
 
 # Spyder project settings
 .spyderproject
