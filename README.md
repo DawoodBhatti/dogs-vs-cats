@@ -11,3 +11,13 @@ might be able to use predict() to get the classification probability. though for
 could generalise to a class classification problem using: https://machinelearningmastery.com/how-to-make-classification-and-regression-predictions-for-deep-learning-models-in-keras/?
 
 upload final program as an executable which doesn't require any python installations or packages?
+
+can use pyinstaller
+
+So, build is for construction, dist is your finished product, and release is your gift-wrapped box for the world. Think of it like baking:
+
+build is the messy mixing bowl
+
+dist is your finished cake
+
+release is when you put that cake in a lovely box and hand it to someone with a smile
