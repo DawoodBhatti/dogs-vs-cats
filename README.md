@@ -1,12 +1,8 @@
 # dogs-vs-cats
 
-if you are just interested in running this program: go to release/run_classifier.py
+_Note: if you are just interested in running this program: go to release/run_classifier.py
 
-followed this tutorial:
-
-https://machinelearningmastery.com/how-to-develop-a-convolutional-neural-network-to-classify-photos-of-dogs-and-cats/
-
-to create a classification program that can be run in two ways. 
+I followed this tutorial: https://machinelearningmastery.com/how-to-develop-a-convolutional-neural-network-to-classify-photos-of-dogs-and-cats/ to create a classification program that can be run in two ways. 
 
 The first is a manual 'drag and drop' interface and the second lets you run classification on an entire folder to then provide you classification output as txt/csv files in the selected folder.
 
