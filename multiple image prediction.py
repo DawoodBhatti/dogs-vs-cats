@@ -1,4 +1,5 @@
 import os
+import sys
 import platform
 import ctypes
 import numpy as np
@@ -7,6 +8,15 @@ from tkinter import filedialog, Tk
 from keras.models import load_model
 from keras.preprocessing.image import load_img, img_to_array
 from tqdm import tqdm  # For progress bar
+
+def resource_path(relative_path):
+    """ Get absolute path to resource, works for dev and for PyInstaller """
+    try:
+        base_path = sys._MEIPASS  # Set by PyInstaller at runtime
+    except AttributeError:
+        base_path = os.path.abspath(".")
+
+    return os.path.join(base_path, relative_path)
 
 # Load and prepare the image
 def load_image(filename):
@@ -61,7 +71,7 @@ def classify_folder():
         print("No folder selected.")
         return
 
-    model_path = os.path.join(os.getcwd(), 'final_model_checkpoints', 'model_epoch_17.keras')
+    model_path = resource_path("final_model/model_epoch_17.keras")
     print(f"Loading model from: {model_path}")
     model = load_model(model_path)
 

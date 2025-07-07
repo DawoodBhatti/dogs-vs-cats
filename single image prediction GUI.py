@@ -1,3 +1,4 @@
+import os, sys
 import tkinter as tk
 from tkinter import filedialog, ttk
 from tkinterdnd2 import DND_FILES, TkinterDnD
@@ -7,6 +8,16 @@ from os import getcwd, path
 import numpy as np
 from PIL import Image, ImageTk
 from PIL.Image import Resampling
+
+
+def resource_path(relative_path):
+    """ Get absolute path to resource, works for dev and for PyInstaller """
+    try:
+        base_path = sys._MEIPASS  # Set by PyInstaller at runtime
+    except AttributeError:
+        base_path = os.path.abspath(".")
+
+    return os.path.join(base_path, relative_path)
 
 
 # Load and prepare the image
@@ -23,7 +34,7 @@ def load_image(filename):
 # Predict the class of an image
 def classify_image(image_path):
     cwd = getcwd()
-    model_path = path.join(cwd, 'final_model_checkpoints', 'model_epoch_17.keras')
+    model_path = resource_path("final_model/model_epoch_17.keras")
     model = load_model(model_path)
 
     img = load_image(image_path)
