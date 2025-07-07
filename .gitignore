@@ -1,7 +1,11 @@
 # Data folders and virtual env
-dataset_dogs_vs_cats/
-dogs-vs-cats/
-train/
+dataset_dogs_vs_cats_vs_neither/
+final_model_checkpoints/
+finalize_dogs_vs_cats_vs_neither/
+images_unrelated/
+inference_dogs_vs_cats_vs_neither/
+tiny_dogs_vs_cats_vs_neither/
+training_model_checkpoints/
 virtual_env/
 
 # Byte-compiled / optimized / DLL files

@@ -1,0 +1,65 @@
+Epoch 7/15
+437/437 ━━━━━━━━━━━━━━━━━━━━ 0s 16s/step - accuracy: 0.9595 - loss: 0.1209     
+Epoch 7: saving model to model_epoch_07_valacc_0.9682.keras
+437/437 ━━━━━━━━━━━━━━━━━━━━ 9079s 21s/step - accuracy: 0.9595 - loss: 0.1209 - val_accuracy: 0.9682 - val_loss: 0.1117
+Epoch 8/15
+437/437 ━━━━━━━━━━━━━━━━━━━━ 0s 16s/step - accuracy: 0.9607 - loss: 0.1185     
+Epoch 8: saving model to model_epoch_08_valacc_0.9698.keras
+437/437 ━━━━━━━━━━━━━━━━━━━━ 9067s 21s/step - accuracy: 0.9607 - loss: 0.1185 - val_accuracy: 0.9698 - val_loss: 0.1190
+Epoch 9/15
+437/437 ━━━━━━━━━━━━━━━━━━━━ 0s 16s/step - accuracy: 0.9623 - loss: 0.1186     
+Epoch 9: saving model to model_epoch_09_valacc_0.9674.keras
+437/437 ━━━━━━━━━━━━━━━━━━━━ 9072s 21s/step - accuracy: 0.9623 - loss: 0.1186 - val_accuracy: 0.9674 - val_loss: 0.1101
+Epoch 10/15
+437/437 ━━━━━━━━━━━━━━━━━━━━ 0s 16s/step - accuracy: 0.9657 - loss: 0.1069     
+Epoch 10: saving model to model_epoch_10_valacc_0.9673.keras
+437/437 ━━━━━━━━━━━━━━━━━━━━ 9102s 21s/step - accuracy: 0.9657 - loss: 0.1069 - val_accuracy: 0.9673 - val_loss: 0.1231
+Epoch 11/15
+437/437 ━━━━━━━━━━━━━━━━━━━━ 0s 15s/step - accuracy: 0.9687 - loss: 0.0999     
+Epoch 11: saving model to model_epoch_11_valacc_0.9709.keras
+437/437 ━━━━━━━━━━━━━━━━━━━━ 9093s 21s/step - accuracy: 0.9687 - loss: 0.0999 - val_accuracy: 0.9709 - val_loss: 0.1114
+Epoch 12/15
+437/437 ━━━━━━━━━━━━━━━━━━━━ 0s 17s/step - accuracy: 0.9674 - loss: 0.1014     
+Epoch 12: saving model to model_epoch_12_valacc_0.9667.keras
+437/437 ━━━━━━━━━━━━━━━━━━━━ 10104s 23s/step - accuracy: 0.9674 - loss: 0.1014 - val_accuracy: 0.9667 - val_loss: 0.1263
+Epoch 13/15
+437/437 ━━━━━━━━━━━━━━━━━━━━ 0s 16s/step - accuracy: 0.9672 - loss: 0.1001     
+Epoch 13: saving model to model_epoch_13_valacc_0.9694.keras
+437/437 ━━━━━━━━━━━━━━━━━━━━ 9238s 21s/step - accuracy: 0.9672 - loss: 0.1001 - val_accuracy: 0.9694 - val_loss: 0.1151
+Epoch 14/15
+351/437 ━━━━━━━━━━━━━━━━━━━━ 23:52 17s/step - accuracy: 0.9678 - loss:
+
+Found 27932 images belonging to 3 classes.
+Found 9456 images belonging to 3 classes.
+Epoch 14/20
+437/437 ━━━━━━━━━━━━━━━━━━━━ 0s 15s/step - accuracy: 0.9718 - loss: 0.0921     
+Epoch 14: saving model to model_epoch_14_valacc_0.9667.keras
+437/437 ━━━━━━━━━━━━━━━━━━━━ 9007s 21s/step - accuracy: 0.9718 - loss: 0.0921 - val_accuracy: 0.9667 - val_loss: 0.1170
+Epoch 15/20
+437/437 ━━━━━━━━━━━━━━━━━━━━ 0s 15s/step - accuracy: 0.9725 - loss: 0.0859     
+Epoch 15: saving model to model_epoch_15_valacc_0.9685.keras
+437/437 ━━━━━━━━━━━━━━━━━━━━ 9023s 21s/step - accuracy: 0.9724 - loss: 0.0859 - val_accuracy: 0.9685 - val_loss: 0.1162
+Epoch 16/20
+437/437 ━━━━━━━━━━━━━━━━━━━━ 0s 15s/step - accuracy: 0.9707 - loss: 0.0891     
+Epoch 16: saving model to model_epoch_16_valacc_0.9718.keras
+437/437 ━━━━━━━━━━━━━━━━━━━━ 9005s 21s/step - accuracy: 0.9707 - loss: 0.0891 - val_accuracy: 0.9718 - val_loss: 0.1041
+Epoch 17/20
+437/437 ━━━━━━━━━━━━━━━━━━━━ 0s 15s/step - accuracy: 0.9716 - loss: 0.0897     
+Epoch 17: saving model to model_epoch_17_valacc_0.9698.keras
+437/437 ━━━━━━━━━━━━━━━━━━━━ 8984s 21s/step - accuracy: 0.9716 - loss: 0.0897 - val_accuracy: 0.9698 - val_loss: 0.1154
+Epoch 18/20
+437/437 ━━━━━━━━━━━━━━━━━━━━ 0s 15s/step - accuracy: 0.9717 - loss: 0.0833     
+Epoch 18: saving model to model_epoch_18_valacc_0.9712.keras
+437/437 ━━━━━━━━━━━━━━━━━━━━ 8982s 21s/step - accuracy: 0.9717 - loss: 0.0833 - val_accuracy: 0.9712 - val_loss: 0.1159
+Epoch 19/20
+437/437 ━━━━━━━━━━━━━━━━━━━━ 0s 15s/step - accuracy: 0.9728 - loss: 0.0788     
+Epoch 19: saving model to model_epoch_19_valacc_0.9719.keras
+437/437 ━━━━━━━━━━━━━━━━━━━━ 9011s 21s/step - accuracy: 0.9728 - loss: 0.0788 - val_accuracy: 0.9719 - val_loss: 0.1250
+Epoch 20/20
+437/437 ━━━━━━━━━━━━━━━━━━━━ 0s 15s/step - accuracy: 0.9740 - loss: 0.0802     
+Epoch 20: saving model to model_epoch_20_valacc_0.9714.keras
+437/437 ━━━━━━━━━━━━━━━━━━━━ 9179s 21s/step - accuracy: 0.9740 - loss: 0.0802 - val_accuracy: 0.9714 - val_loss: 0.1144
+148/148 ━━━━━━━━━━━━━━━━━━━━ 2266s 15s/step - accuracy: 0.9706 - loss: 0.1215
+> 96.954
+
+model 16 best?
