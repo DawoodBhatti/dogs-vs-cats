@@ -23,7 +23,7 @@ def load_image(filename):
 # Predict the class of an image
 def classify_image(image_path):
     cwd = getcwd()
-    model_path = path.join(cwd, 'final_model_checkpoints', 'model_epoch_17.keras')
+    model_path = path.join(cwd, 'final_model', 'model_epoch_17.keras')
     model = load_model(model_path)
 
     img = load_image(image_path)
