@@ -61,7 +61,7 @@ def classify_folder():
         print("No folder selected.")
         return
 
-    model_path = os.path.join(os.getcwd(), 'final_model_checkpoints', 'model_epoch_17.keras')
+    model_path = os.path.join(os.getcwd(), 'final_model', 'model_epoch_17.keras')
     print(f"Loading model from: {model_path}")
     model = load_model(model_path)
 
