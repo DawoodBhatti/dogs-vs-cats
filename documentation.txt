@@ -7,6 +7,7 @@ here is a brief description of what each folder/file is
 
 folders:
 dataset_dogs_vs_cats_vs_neither: used for training and validation
+final_model: the final model selected for use in the classification project
 final_model_checkpoints: the final trained model saved at each epoch from 1-20
 finalize_dogs_vs_cats_vs_neither: used to train final model with no images used for validation 
 images_unrelated: empty folders created to hold manually downloaded imagenet data
