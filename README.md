@@ -1,25 +1,19 @@
 # dogs-vs-cats
 
-follow this tutorial
+if you are just interested in running this program: go to release/run_classifier.py
+
+followed this tutorial:
 
 https://machinelearningmastery.com/how-to-develop-a-convolutional-neural-network-to-classify-photos-of-dogs-and-cats/
 
-with the addition of a 'drag and drop' interface and options to select a file or an entire folder
+to create a classification program that can be run in two ways. 
 
-actually this step has not quite worked the way i'd expect it, let's go for a multi class problem cat/dog/not cat or dog
+The first is a manual 'drag and drop' interface and the second lets you run classification on an entire folder to then provide you classification output as txt/csv files in the selected folder.
 
-might be able to use predict() to get the classification probability. though for a binary classification problem this means be a zero  probability i.e. 60% probability of a dog means 40% probability of it being a cat so we could just say that if our probability returned is less than 80% we classify it as an unknown else use the classification from predict...
+three main branches in this repo:
 
-could generalise to a class classification problem using: https://machinelearningmastery.com/how-to-make-classification-and-regression-predictions-for-deep-learning-models-in-keras/?
+1) build aka construction (messy mixing bowl)
 
-upload final program as an executable which doesn't require any python installations or packages?
+2) dist is the finished product (finished cake)
 
-can use pyinstaller
-
-So, build is for construction, dist is your finished product, and release is your gift-wrapped box for the world. Think of it like baking:
-
-build is the messy mixing bowl
-
-dist is your finished cake
-
-release is when you put that cake in a lovely box and hand it to someone with a smile
+3) release is the product in a gift-wrapped box (cake in a box handed to someone with a card)
