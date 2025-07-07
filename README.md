@@ -1,7 +1,7 @@
-# dogs-vs-cats
-
 _Note: if you are just interested in running this program: go to release/run_classifier.py_
 
+
+# dogs-vs-cats
 
 Build notes: I followed this tutorial: https://machinelearningmastery.com/how-to-develop-a-convolutional-neural-network-to-classify-photos-of-dogs-and-cats/ to create a classification program that can be run in two ways. 
 
