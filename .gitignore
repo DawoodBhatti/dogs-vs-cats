@@ -7,6 +7,8 @@ inference_dogs_vs_cats_vs_neither/
 tiny_dogs_vs_cats_vs_neither/
 training_model_checkpoints/
 virtual_env/
+build/
+dist/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
