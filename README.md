@@ -1,4 +1,4 @@
-_Note: if you are just interested in running this program: go to release/single image prediction GUI.py or release/multiple image prediction.py_
+_Note: if you are just interested in running this program: go to dist/single image prediction GUI.py or dist/multiple image prediction.py_
 
 
 # dogs-vs-cats
